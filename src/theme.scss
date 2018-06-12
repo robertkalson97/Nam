@@ -1,0 +1,42 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/theming';
+@import url('//fonts.googleapis.com/icon?family=Material+Icons');
+
+@include mat-core();
+
+$custom-red: #DD0C39;
+
+
+$primary: mat-palette($mat-lime, 500);
+$accent:  mat-palette($mat-lime, 500, A200, A400);
+$warn:    mat-palette($mat-red, 500);
+
+$theme: mat-light-theme($primary, $accent, $warn);
+
+@include angular-material-theme($theme);
+
+body {
+  font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+.red-input {
+  .mat-form-field-outline.mat-form-field-outline-thick  {
+    color: $custom-red !important;
+  }
+
+
+  &.mat-focused .mat-form-field-label{
+      color: $custom-red !important;
+  }
+}
+
+
+.red-button {
+  background-color: $custom-red !important;
+  color: white;
+  font-weight: 800;
+}
