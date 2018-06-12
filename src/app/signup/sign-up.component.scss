@@ -24,7 +24,7 @@
 .login-form {
   margin-top: 20px;
 
-  mat-form-field {
+  & > mat-form-field {
     width: 430px;
   }
 
@@ -43,6 +43,18 @@
   }
 }
 
+.inline-input-wrapper {
+  width: 430px;
+  display: inline-flex;
+  & > mat-form-field {
+    margin-right: 20px;
+  }
+}
+
+
+.red-button {
+  margin-top: 10px;
+}
 
 .text-link:hover {
   cursor: pointer;

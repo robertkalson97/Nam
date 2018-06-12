@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { appRoutes } from './app.routes';
 
 import { LogInModule } from './login/log-in.module';
+import { SignUpModule } from './signup/sign-up.module';
 
 import { AppComponent } from './app.component';
 
@@ -22,7 +23,8 @@ import { AppComponent } from './app.component';
       appRoutes
     ),
 
-    LogInModule
+    LogInModule,
+    SignUpModule
 
   ],
   providers: [],

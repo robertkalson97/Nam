@@ -5,12 +5,14 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 
-import { LogInComponent } from './log-in.component';
+import { SignUpComponent } from './sign-up.component';
+
+
 
 
 @NgModule({
   declarations: [
-    LogInComponent
+    SignUpComponent
   ],
   imports: [
     MatInputModule,
@@ -20,4 +22,4 @@ import { LogInComponent } from './log-in.component';
   ],
   providers: []
 })
-export class LogInModule { }
+export class SignUpModule { }

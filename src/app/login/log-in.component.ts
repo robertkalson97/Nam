@@ -8,6 +8,5 @@ import { Component, OnInit } from '@angular/core';
 
 export class LogInComponent implements OnInit {
   ngOnInit() {
-    console.log('cherck');
   }
 }
