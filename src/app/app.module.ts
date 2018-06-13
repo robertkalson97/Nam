@@ -8,6 +8,9 @@ import { appRoutes } from './app.routes';
 
 import { LogInModule } from './login/log-in.module';
 import { SignUpModule } from './signup/sign-up.module';
+import { ActsListModule } from './actsList/actsList.module';
+import { UniqueActModule } from './uniqueAct/uniqueAct.module';
+import { AddActModule } from './addAct/addAct.module';
 
 import { AppComponent } from './app.component';
 
@@ -24,7 +27,10 @@ import { AppComponent } from './app.component';
     ),
 
     LogInModule,
-    SignUpModule
+    SignUpModule,
+    ActsListModule,
+    UniqueActModule,
+    AddActModule
 
   ],
   providers: [],

@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="add-act-container">
+    <mat-card >
+      <form>
+        <h1 class="custom-red-color">Add an Act</h1>
+        <mat-form-field appearance="outline" class="red-input">
+          <mat-label>Username</mat-label>
+          <input matInput placeholder="Username">
+        </mat-form-field>
+        <br>
+
+
+        <div class="inline-input-wrapper">
+          <mat-form-field>
+            <input matInput [matDatepicker]="picker" placeholder="Date">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
+
+        <mat-form-field appearance="outline" class="red-input">
+          <input matInput placeholder="Duration">
+          <mat-hint>Decimal points okay</mat-hint>
+        </mat-form-field> Hour(s)
+
+        <mat-form-field appearance="outline" class="red-input">
+          <input matInput placeholder="Location">
+        </mat-form-field>
+
+    </form>
+    </mat-card>
+</div>
+
+
+
+

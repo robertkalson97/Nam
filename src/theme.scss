@@ -15,12 +15,17 @@ $theme: mat-light-theme($primary, $accent, $warn);
 
 @include angular-material-theme($theme);
 
+
 body {
   font-weight: normal;
 }
 
 h1, h2, h3, h4 {
   font-weight: normal;
+}
+
+.custom-red-color {
+  color: $custom-red;
 }
 
 .red-input {
