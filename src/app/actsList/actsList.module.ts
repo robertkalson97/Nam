@@ -4,6 +4,8 @@ import {RouterModule } from '@angular/router';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 
+import { MenuModule } from '../core/components/menu/menu.module';
+
 import * as fromComponents from './components';
 
 import { ActsListComponent } from './actsList.component';
@@ -17,7 +19,9 @@ import { ActsListComponent } from './actsList.component';
   imports: [
     RouterModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+
+    MenuModule
   ],
   providers: [
   ],

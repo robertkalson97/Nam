@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-add-act',
-  templateUrl: './addAct.component.html',
-  styleUrls: ['./addAct.component.scss']
+  selector: 'app-edit-profile',
+  templateUrl: './editProfile.component.html',
+  styleUrls: ['./editProfile.component.scss']
 })
 
-export class AddActComponent {
+export class EditProfileComponent {
   age: string[];
   price: any;
   method: any;

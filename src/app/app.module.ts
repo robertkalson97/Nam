@@ -11,6 +11,9 @@ import { SignUpModule } from './signup/sign-up.module';
 import { ActsListModule } from './actsList/actsList.module';
 import { UniqueActModule } from './uniqueAct/uniqueAct.module';
 import { AddActModule } from './addAct/addAct.module';
+import { EditProfileModule } from './editProfile/editProfile.module';
+
+import { MenuModule } from './core/components/menu/menu.module';
 
 import { AppComponent } from './app.component';
 
@@ -30,7 +33,9 @@ import { AppComponent } from './app.component';
     SignUpModule,
     ActsListModule,
     UniqueActModule,
-    AddActModule
+    AddActModule,
+    EditProfileModule,
+    MenuModule
 
   ],
   providers: [],

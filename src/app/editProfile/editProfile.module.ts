@@ -11,15 +11,16 @@ import { MatNativeDateModule } from '@angular/material';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
 
 
 
-import { AddActComponent } from './addAct.component';
+import { EditProfileComponent } from './editProfile.component';
 
 
 @NgModule({
   declarations: [
-    AddActComponent
+    EditProfileComponent
   ],
   imports: [
     RouterModule,
@@ -32,9 +33,10 @@ import { AddActComponent } from './addAct.component';
     MatNativeDateModule,
     MatSelectModule,
     MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    MatChipsModule
   ],
   providers: [
   ]
 })
-export class AddActModule { }
+export class EditProfileModule { }

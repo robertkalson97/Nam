@@ -11,4 +11,22 @@ body {
   }
 }
 
+.logo-img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 
+.grey-link {
+  color: #3f3f3f;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.grey-link:hover {
+  text-decoration: underline;
+}
+
+.text-link:hover {
+  cursor: pointer;
+}
