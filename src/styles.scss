@@ -1,6 +1,11 @@
 body {
   margin: 0;
   background-image: url('./assets/img/bg.png');
+  font-family: "Helvetica Neue";
+}
+
+h1, h2,h3,h4,h5,h6 {
+  font-family: "Open Sans";
 }
 
 .inline-input-wrapper {
