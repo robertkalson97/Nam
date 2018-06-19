@@ -9,7 +9,8 @@ h1, h2,h3,h4,h5,h6 {
 }
 
 .inline-input-wrapper {
-  width: 430px;
+  width: 100%;
+  max-width: 430px;
   display: inline-flex;
   & > mat-form-field {
     margin-right: 20px;
@@ -34,4 +35,16 @@ h1, h2,h3,h4,h5,h6 {
 
 .text-link:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .inline-input-wrapper {
+    display: inline-block;
+
+    & > mat-form-field {
+      width: 100%;
+      max-width: 430px;
+      margin-right: 0;
+    }
+  }
 }
